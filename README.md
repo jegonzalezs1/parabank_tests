@@ -1,9 +1,9 @@
 # README: Pruebas de Parabank con Cypress
 
-Descripción: Este proyecto automatiza pruebas del portal Parabank utilizando Cypress.io. Las pruebas abarcan operaciones básicas como registrar usuario, loguearse con el usuario, agregar cuentas, hacer retiros y permitir transferencias que no sobrepasen el cupo inicial de $515.80
+Descripción: Este proyecto automatiza pruebas del portal Parabank utilizando Cypress.io. Las pruebas abarcan operaciones básicas como registrar usuario, loguearse con el usuario, agregar cuentas, hacer retiros y permitir transferencias que no sobrepasen el cupo inicial de $515.80 que es el balance de la cuenta.
 
-Requisitos: Antes de ejecutar las pruebas, asegúrate de tener lo siguiente:s
-1. Node.js instalado: Descárgalo desde (https://nodejs.org/).
+Requisitos: Antes de ejecutar las pruebas, asegúrate de tener lo siguiente:
+1. Node.js instalado: Descárgalo desde (https://nodejs.org/)
 2. Dependencias de Cypress: Se instalan automáticamente en este proyecto.
 
 ## Instrucciones del proyecto
@@ -30,7 +30,7 @@ Requisitos: Antes de ejecutar las pruebas, asegúrate de tener lo siguiente:s
 
 2. Para generar el reporte de Cypress usamos el comando: npx cypress run para depurar los archivos cy.js, con eso se mostrará al principio los reportes en JSON, pero al momento de terminar la compilación se mostrará en formato HTML.
 
-3. En el archivo cypress.config.js añadimos en este código
+3. En el archivo ```cypress.config.js``` añadimos en este código:
 
 ```javascript
 const { defineConfig } = require("cypress");
@@ -61,8 +61,8 @@ module.exports = defineConfig({
   }
 });
 ```
-4. Sin inportar el resultado de las pruebas compiladas, nos dirigiremos a la carpeta reports, revisamos si se ha generado corectamente el reporte para luego abrirlo con el navegador que estamos usando, en este caso Edge
-
+4. Sin inportar el resultado de las pruebas compiladas, nos dirigiremos a la carpeta reports, revisamos si se ha generado corectamente el reporte para luego abrirlo con el navegador que estamos usando, en este caso Edge.
+ 
 5. Damos clic y seleccionamos a cualquier navegador en este caso trabajaremos con Microsoft Edge.
 
 ### Instalación de Gherkin en Cypress
@@ -77,7 +77,7 @@ module.exports = defineConfig({
 
 5. Importamos el Gherkin en los archivos .js de la carpeta steps: ```import { Given, When, Then } from "cypress-cucumber-preprocessor";```
 
-6. En el archivo cypress.config.js añadimos en este código
+6. En el archivo cypress.config.js añadimos en este código:
 
 ```javascript
 const { defineConfig } = require("cypress");
@@ -116,7 +116,7 @@ module.exports = defineConfig({
 });
 ```
 
-7. Sin inportar el resultado de las pruebas compiladas, nos dirigiremos a la carpeta reports, revisamos si se ha generado corectamente el reporte para luego abrirlo con el navegador que estamos usando, en este caso Edge
+7. Sin inportar el resultado de las pruebas compiladas, nos dirigiremos a la carpeta reports, revisamos si se ha generado corectamente el reporte para luego abrirlo con el navegador que estamos usando, en este caso Edge.
 
 8. Damos clic y seleccionamos a cualquier navegador en este caso trabajaremos con Microsoft Edge.
 
@@ -142,4 +142,4 @@ Para ejecutar las pruebas utilizaremos los siguientes comandos:
 
 ```npx cypress run``` o ```npx cypress open```
 
-El último me permite abrir la interfaz de Cypress para hacer las pruebas automatizadas
+El último me permite abrir la interfaz de Cypress para hacer las pruebas automatizadas.
