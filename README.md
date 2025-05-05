@@ -65,7 +65,7 @@ module.exports = defineConfig({
  
 5. Damos clic y seleccionamos a cualquier navegador en este caso trabajaremos con Microsoft Edge.
 
-### Instalación de Gherkin en Cypress
+### Instalación de Gherkin en Cypress (opcional)
 
 1. Instalamos Gherkin en el proyecto con el comando: ```npm install cypress-cucumber-preprocessor --save-dev```
 
