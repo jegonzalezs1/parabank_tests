@@ -21,7 +21,7 @@ module.exports = defineConfig({
   e2e: {
     specPattern: [
       "cypress/integration/**/*.cy.{js,jsx,ts,tsx}",
-      // "cypress/e2e/features/**/*.feature"
+      "cypress/e2e/features/**/*.feature"
     ],
     stepDefinitions: "cypress/e2e/step_definitions/**/*.js",
     screenshotOnRunFailure: true, 
