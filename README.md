@@ -1,6 +1,6 @@
-README: Pruebas de API PetStore con Cypress
+# README: Pruebas de Parabank con Cypress
 
-Descripción: Este proyecto automatiza pruebas de la API de PetStore utilizando Cypress.io. Las pruebas abarcan operaciones básicas como crear, buscar, actualizar y eliminar usuarios.
+Descripción: Este proyecto automatiza pruebas del portal Parabank utilizando Cypress.io. Las pruebas abarcan operaciones básicas como registrar usuario, loguearse con el usuario, agregar cuentas, hacer retiros y permitir transferencias que no sobrepasen el cupo inicial de $515.80
 
 Requisitos: Antes de ejecutar las pruebas, asegúrate de tener lo siguiente:s
 1. Node.js instalado: Descárgalo desde (https://nodejs.org/).
@@ -18,5 +18,6 @@ Requisitos: Antes de ejecutar las pruebas, asegúrate de tener lo siguiente:s
 
 5. Al seleccionar el navegador damos clic en la opcion Start E2E Testing in Edge.
 
-6. Aparecera una ventana con la url (http://localhost:54462/__/#/specs)
+6. Aparecera una ventana con la url (https://parabank.parasoft.com/__/#/specs)
+   
 7. Seleccionamos cualquier js para hacer pruebas, si resulta todo correcto saldra OK, caso contrario saldra ERROR.
