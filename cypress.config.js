@@ -21,14 +21,15 @@ module.exports = defineConfig({
   e2e: {
     specPattern: [
       "cypress/integration/**/*.cy.{js,jsx,ts,tsx}",
-      "cypress/e2e/features/**/*.feature"
+      "**/*.feature"
     ],
     stepDefinitions: "cypress/e2e/step_definitions/**/*.js",
     screenshotOnRunFailure: true, 
     video: true,
-    setupNodeEvents(on) {
+    setupNodeEvents(on, config) {
       on("file:preprocessor", cucumber());
       require("cypress-mochawesome-reporter/plugin")(on);
+      return config;
     },
   }
 });

@@ -1,4 +1,4 @@
-import { Given, When, Then } from "cypress-cucumber-preprocessor";
+import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import LoginPage from "../../support/pages/LoginPage";
 
 Given("el usuario está en la página de retiro de dinero", () => {

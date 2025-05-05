@@ -1,4 +1,4 @@
-import { Given, When, Then } from "cypress-cucumber-preprocessor";
+import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import RegistrationPage from "../../support/pages/RegistrationPage";
 
 Given("el usuario está en la página de registro", () => {
