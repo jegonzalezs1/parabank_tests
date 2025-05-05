@@ -144,3 +144,5 @@ Para ejecutar las pruebas utilizaremos los siguientes comandos:
 ```npx cypress run``` o ```npx cypress open```
 
 El último me permite abrir la interfaz de Cypress para hacer las pruebas automatizadas.
+
+**Nota: ** Las pruebas se pueden hacer con o sin .json para cada una de los 3 puntos del proyecto a excepcion del login y el register que son automatizadas.
