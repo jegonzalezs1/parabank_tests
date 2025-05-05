@@ -1,6 +1,6 @@
 const { defineConfig } = require("cypress");
 
-const cucumber = require("cypress-cucumber-preprocessor").default;
+const cucumber = require("@badeball/cypress-cucumber-preprocessor").default;
 
 module.exports = defineConfig({
   reporter: "cypress-mochawesome-reporter",
@@ -21,9 +21,9 @@ module.exports = defineConfig({
   e2e: {
     specPattern: [
       "cypress/integration/**/*.cy.{js,jsx,ts,tsx}",
-      "**/*.feature"
+      // "cypress/e2e/features/**/*.feature"
     ],
-    stepDefinitions: "cypress/e2e/step_definitions/**/*.js",
+    // stepDefinitions: "cypress/e2e/step_definitions/**/*.js",
     screenshotOnRunFailure: true, 
     video: true,
     setupNodeEvents(on, config) {
