@@ -1,0 +1,14 @@
+{
+  "id": 12345,
+  "firstName": "Jose",
+  "lastName": "Gonzalez",
+  "username": "jgonzalezs2",
+  "password": "Sims2010_2021",
+  "confirmPassword": "Sims2010_2021",
+  "address": "Arguelles 700 y Oriente",
+  "city": "Guayaquil",
+  "state": "Guayas",
+  "zipCode": "090108",
+  "phone": "0979593719",
+  "ssn": "0952494425"
+}
