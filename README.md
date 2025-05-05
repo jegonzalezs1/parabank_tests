@@ -122,7 +122,8 @@ module.exports = defineConfig({
 
 ## Archivos de Dependencias
 
-package.json
+Dependencias de ```package.json```
+
 ```typescript
 {
   "devDependencies": {
